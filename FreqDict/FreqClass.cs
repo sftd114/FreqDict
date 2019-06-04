@@ -14,7 +14,8 @@ namespace FreqDict
         {
             Dictionary<string, int> dict = new Dictionary<string, int>();
 
-            if (!File.Exists(path))
+            if (!File.Exists(path) || (!Path.GetExtension(path).EndsWith("txt") && !Path.GetExtension(path).EndsWith("doc")
+                && !Path.GetExtension(path).EndsWith("docx") && !Path.GetExtension(path).EndsWith("rtf")))
             {
                 return dict;
             }
