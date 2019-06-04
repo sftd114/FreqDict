@@ -16,9 +16,7 @@ namespace FreqDict
 
             if (!File.Exists(path) || (!Path.GetExtension(path).EndsWith("txt") && !Path.GetExtension(path).EndsWith("doc")
                 && !Path.GetExtension(path).EndsWith("docx") && !Path.GetExtension(path).EndsWith("rtf")))
-            {
                 return dict;
-            }
 
             dict = new Dictionary<string, int>();
 
@@ -35,13 +33,9 @@ namespace FreqDict
             foreach (Match match in matches)
             {
                 if (!dict.ContainsKey(match.Value))
-                {
                     dict.Add(match.Value, 1);
-                }
                 else
-                {
                     dict[match.Value]++;
-                }
             }
 
             return dict;
