@@ -12,12 +12,15 @@ namespace FreqDict
     {
         public Dictionary<string, int> FreqCount(string path)
         {
-            Dictionary<string, int> dict = new Dictionary<string, int>();
+            Dictionary<string, int> dict = null;
 
-            if (!File.Exists(path))
+            if (!File.Exists(path) || (!Path.GetExtension(path).EndsWith("txt") && !Path.GetExtension(path).EndsWith("doc")
+                && !Path.GetExtension(path).EndsWith("docx") && !Path.GetExtension(path).EndsWith("rtf")))
             {
                 return dict;
             }
+
+            dict = new Dictionary<string, int>();
 
             FileStream stream = new FileStream(path, FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(stream, Encoding.Default);
