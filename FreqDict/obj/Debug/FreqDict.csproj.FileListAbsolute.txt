@@ -1,0 +1,7 @@
+C:\Users\setup\source\repos\FreqDict\FreqDict\bin\Debug\FreqDict.exe.config
+C:\Users\setup\source\repos\FreqDict\FreqDict\bin\Debug\FreqDict.exe
+C:\Users\setup\source\repos\FreqDict\FreqDict\bin\Debug\FreqDict.pdb
+C:\Users\setup\source\repos\FreqDict\FreqDict\obj\Debug\FreqDict.csprojAssemblyReference.cache
+C:\Users\setup\source\repos\FreqDict\FreqDict\obj\Debug\FreqDict.csproj.CoreCompileInputs.cache
+C:\Users\setup\source\repos\FreqDict\FreqDict\obj\Debug\FreqDict.exe
+C:\Users\setup\source\repos\FreqDict\FreqDict\obj\Debug\FreqDict.pdb

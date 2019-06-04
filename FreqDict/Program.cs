@@ -10,6 +10,13 @@ namespace FreqDict
     {
         static void Main(string[] args)
         {
+            FreqClass freq = new FreqClass();
+            Dictionary<string, int> result = freq.FreqCount(@"C:\Users\setup\Documents\test1.txt");
+
+            foreach (string word in result.Keys)
+            {
+                Console.WriteLine(word + " " + result[word]);
+            }
         }
     }
 }
