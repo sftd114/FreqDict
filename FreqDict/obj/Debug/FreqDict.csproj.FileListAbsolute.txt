@@ -5,3 +5,7 @@ C:\Users\setup\source\repos\FreqDict\FreqDict\obj\Debug\FreqDict.csprojAssemblyR
 C:\Users\setup\source\repos\FreqDict\FreqDict\obj\Debug\FreqDict.csproj.CoreCompileInputs.cache
 C:\Users\setup\source\repos\FreqDict\FreqDict\obj\Debug\FreqDict.exe
 C:\Users\setup\source\repos\FreqDict\FreqDict\obj\Debug\FreqDict.pdb
+C:\Users\setup\source\repos\FreqDict\FreqDict\bin\Debug\nunit.framework.dll
+C:\Users\setup\source\repos\FreqDict\FreqDict\bin\Debug\nunit.framework.pdb
+C:\Users\setup\source\repos\FreqDict\FreqDict\bin\Debug\nunit.framework.xml
+C:\Users\setup\source\repos\FreqDict\FreqDict\obj\Debug\FreqDict.csproj.CopyComplete
