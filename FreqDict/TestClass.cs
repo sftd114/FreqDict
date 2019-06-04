@@ -56,7 +56,7 @@ namespace FreqDict
                 line = reader.ReadLine();
                 split = line.Split(' ');
 
-                if (!word.Equals(line[1]) || result[word] != Convert.ToInt32(line[2]))
+                if (!word.Equals(split[1]) || result[word] != Convert.ToInt32(split[2]))
                     Assert.Fail();
             }
 
